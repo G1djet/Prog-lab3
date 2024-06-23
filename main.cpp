@@ -10,12 +10,12 @@ int main() {
     int X[size]; /**< Массив целых чисел */
     int K; /**< Число для сравнения */
 
-    std::cout << "Введите элементы массива X1, X2, ..., X15: ";
+    std::cout << "Enter the array elements X1, X2, ..., X15: ";
     for (int i = 0; i < size; i++) {
         std::cin >> X[i];
     }
 
-    std::cout << "Введите число K: ";
+    std::cout << "Enter the number K: ";
     std::cin >> K;
 
     for (int i = 0; i < size - 4; i++) {
@@ -27,9 +27,10 @@ int main() {
         }
     }
 
-    std::cout << "Итоговый массив: ";
+    std::cout << "The resulting array: ";
     for (int i = 0; i < size - 5; i++) {
         std::cout << X[i] << " ";
     }
 
-    return 0;}
+    return 0;
+    }
